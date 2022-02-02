@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CharactersComponent } from './characters/characters.component';
 import { ContactComponent } from './contact/contact.component';
-import { HeaderComponent } from './home/header/header.component';
 import { MainComponent } from './home/main/main.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -17,7 +16,6 @@ import { NavbarComponent } from './navbar/navbar.component';
     HomeComponent,
     CharactersComponent,
     ContactComponent,
-    HeaderComponent,
     MainComponent,
     FooterComponent,
     NavbarComponent
