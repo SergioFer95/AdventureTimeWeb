@@ -3,7 +3,6 @@
   height: 143px;
 
   margin-top: 26px;
-  
 
   position: absolute;
 
@@ -13,28 +12,20 @@
   justify-content: space-between;
   align-items: center;
 
-  border: 1px solid red;
-
     .logoContainer__img {
         width: 305px;
         height: 141px;
 
-        margin-left: 50px;
+        margin-left: 31px;
         
 
         order: 1;
         flex-grow: 3;
-
-        border: 1px solid grey;
     }
 
     .menu {
         width: 60%;
         height: 141px;
-
-        
-
-        border: 1px solid blue;
 
         display: flex;
         flex-direction: row;
@@ -46,9 +37,17 @@
 
 
         a{
-            border: 1px solid red;
-            padding: 10px;
+            border: 3px solid rgb(224, 67, 67);
+            border-radius: 41px;
+            padding: 15px;
             margin-right: 137px;
+
+            text-decoration: none;
+            font-size: 31px;
+            font-family: 'Architects Daughter', cursive;
+
+            background-color: #EEA917;
+            color: white;
         }
     }
 }
