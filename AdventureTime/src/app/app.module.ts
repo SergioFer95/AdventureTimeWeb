@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MainComponent } from './home/main/main.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HttpClientModule } from '@angular/common/http'; // --> 1) importamos nuestro módulo
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NavbarComponent } from './navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule  // --> 2) lo declaramos como componente en IMPORTS
   ],
   providers: [],
   bootstrap: [AppComponent]

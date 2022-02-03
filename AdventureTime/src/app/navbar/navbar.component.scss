@@ -1,20 +1,54 @@
+.header {
+  width: 100%;
+  height: 143px;
 
-.navbar{
-    position: absolute;
-    width: 100%;
-    height: 100px;
+  margin-top: 26px;
+  
 
-    border: 1px solid red;
+  position: absolute;
 
-    .logoContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 
+  border: 1px solid red;
+
+    .logoContainer__img {
+        width: 305px;
+        height: 141px;
+
+        margin-left: 50px;
+        
+
+        order: 1;
+        flex-grow: 3;
+
+        border: 1px solid grey;
+    }
+
+    .menu {
+        width: 60%;
+        height: 141px;
+
+        
 
         border: 1px solid blue;
 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        order: 2;
+        flex-grow: 6;
+        justify-content: flex-end;
+        align-items: center;
 
-        .logoContainer__img{
-            width: 280px;
-            height: 164px;
+
+        a{
+            border: 1px solid red;
+            padding: 10px;
+            margin-right: 137px;
         }
     }
 }
