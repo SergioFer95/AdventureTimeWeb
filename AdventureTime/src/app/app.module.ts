@@ -7,9 +7,9 @@ import { HomeComponent } from './home/home.component';
 import { CharactersComponent } from './characters/characters.component';
 import { ContactComponent } from './contact/contact.component';
 import { MainComponent } from './home/main/main.component';
-import { FooterComponent } from './home/footer/footer.component';
+import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { HttpClientModule } from '@angular/common/http'; // --> 1) importamos nuestro módulo
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { HttpClientModule } from '@angular/common/http'; // --> 1) importamos nu
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule  // --> 2) lo declaramos como componente en IMPORTS
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
