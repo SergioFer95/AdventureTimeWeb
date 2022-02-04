@@ -7,4 +7,37 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:scroll;
+
+    .character{
+        width: 330px;
+        height: 400px;
+        border: 1px solid red;
+        background-color: wheat;
+
+        .characterPresentation{
+            width: 300px;
+            height: 200px;
+            border: 1ps solid yellowgreen;
+            background-color: yellow;
+
+            .character__photo{
+                width:300px;
+                height: 280px;
+    
+                border: 1px solid black;
+            }
+        }
+
+        .character__btnShowDetails{
+            border-radius: 60%;
+            cursor: pointer;
+
+            .fa-chevron-down{
+                font-size: 40px;
+                padding: 10px;
+            }
+        }
+        
+    }
+
 }
