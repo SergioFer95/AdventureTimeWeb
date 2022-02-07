@@ -1,10 +1,10 @@
 <div class="backgroundImage">
 
-    <section class="character">
-        <div class="characterPresentation">
-            <img class="character__photo" src="" alt="characterPhoto">
+    <section class="character" *ngFor="let element of character">
+        <div class="characterPresentation" *ngIf="character">
+            <img class="character__photo" src="{{ element.image }}" alt="characterPhoto">
 
-            <h3 class="character__name">Name of Character</h3>
+            <h3 class="character__name">{{ element.name }}</h3>
         </div>
         
 
@@ -12,7 +12,7 @@
             <i class="fas fa-chevron-down"></i>
         </button>
 
-        <p class="character__details">DETAILS</p>
+        <p class="character__details">{{ element.details }}</p>
 
     </section>
 

@@ -7,7 +7,11 @@ import { CharacterService } from './character.service';
   styleUrls: ['./characters.component.scss']
 })
 
+
+
 export class CharactersComponent implements OnInit {
+
+  public character: any;
 
   constructor(private characterService: CharacterService) { }
 
@@ -16,9 +20,9 @@ export class CharactersComponent implements OnInit {
   }
 
   private getCharacters(): void {
-    this.characterService.getInfoCharacter().subscribe((res)=>{
-      console.log(res);
-
+    this.characterService.getInfoCharacter().subscribe((result)=>{
+      this.character = result;
+      console.log(this.character);
       
     }, (error) =>{
       console.error(error)

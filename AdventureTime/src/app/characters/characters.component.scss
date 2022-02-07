@@ -7,12 +7,27 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:scroll;
+    padding-top:250px;
+
+    display: flex;
+    flex-wrap: wrap;
+
 
     .character{
+        // display: flex;
+        // flex-wrap: wrap;
+        // flex-direction: column;
+
+
         width: 330px;
         height: 400px;
         border: 1px solid red;
         background-color: wheat;
+
+        margin:0 auto;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        
 
         .characterPresentation{
             width: 300px;
