@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserMessage } from '../models/formModel';
 
 @Component({
   selector: 'app-contact',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
+
+  public userMessage : UserMessage;
 
   constructor() { }
 

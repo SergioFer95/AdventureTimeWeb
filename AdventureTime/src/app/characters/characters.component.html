@@ -1,5 +1,6 @@
 <div class="backgroundImage">
 
+
     <section class="character" *ngFor="let element of character">
         <div class="characterPresentation" *ngIf="character">
             <img class="character__photo" src="{{ element.image }}" alt="characterPhoto">
@@ -15,6 +16,8 @@
         <p class="character__details">{{ element.details }}</p>
 
     </section>
+
+    
 
 </div>
 
